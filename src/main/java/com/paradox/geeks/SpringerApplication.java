@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class GeeksApplication implements ApplicationRunner, CommandLineRunner {
+public class SpringerApplication implements ApplicationRunner, CommandLineRunner {
     @Value("${spring.application.name:my_app}")
     private String name;
 
     public static void main(String[] args) {
-        SpringApplication.run(GeeksApplication.class, args);
+        SpringApplication.run(SpringerApplication.class, args);
     }
 
     @RequestMapping(value = "/")
