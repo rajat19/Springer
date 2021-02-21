@@ -1,0 +1,15 @@
+### Health
+GET {{host}}/actuator/health
+###
+
+### Metrics
+GET {{host}}/actuator/metrics
+###
+
+### Info
+GET {{host}}/actuator/info
+###
+
+### Traces
+GET {{host}}/actuator/trace
+###

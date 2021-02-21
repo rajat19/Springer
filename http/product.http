@@ -1,5 +1,4 @@
-###
-# Get Products
+### Get Products
 GET {{host}}/products
 ###
 
