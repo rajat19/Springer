@@ -2,12 +2,14 @@ package com.paradox.geeks.controller;
 
 import com.paradox.geeks.model.Product;
 import com.paradox.geeks.service.ProductService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@Api(value = "operations pertaining to products")
 public class ProductServiceController {
     @Autowired
     private ProductService productService;
