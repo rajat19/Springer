@@ -1,0 +1,31 @@
+###
+# Get Products
+GET {{host}}/products
+###
+
+### Get Product
+GET {{host}}/products/2
+###
+
+### Create Product
+POST {{host}}/products
+Content-Type: application/json
+
+{
+  "id": "3",
+  "name": "cherry"
+}
+###
+
+### Update Product
+PUT {{host}}/products/5
+Content-Type: application/json
+
+{
+  "name": "salmon"
+}
+###
+
+### Delete Product
+DELETE {{host}}/products/2
+###
