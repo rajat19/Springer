@@ -30,6 +30,7 @@ dependencies {
             'org.springframework.boot:spring-boot-starter-actuator',
             'io.springfox:springfox-boot-starter:3.0.0',
             'io.springfox:springfox-swagger-ui:3.0.0',
+            'org.springframework.boot:spring-boot-starter-mail',
     )
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
